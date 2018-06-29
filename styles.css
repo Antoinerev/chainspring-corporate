@@ -106,6 +106,9 @@ a {
 .green {
   color: #53e05e;
 }
+.mail-input {
+  min-height: 200px;
+}
 .footer {
   align-self: flex-end;
   display: flex;
