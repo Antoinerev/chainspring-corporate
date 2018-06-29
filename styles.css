@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("images/flowers_wallpaper.jpg");
+  display: flex;
+  flex-direction: column;
+}
+.home-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  max-width: 1200px;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 80px;
+  font-family: 'Lato', sans-serif;
+  color: #ebebeb;
+}
+.left-navbar {
+  display: flex;
+  align-items: center;
+  /*align-self: flex-start;*/
+}
+.right-navbar {
+  display: flex;
+  align-items: center;
+  /*align-self: flex-end;*/
+}
+.navbar-item {
+  padding: 0 20px;
+}
+.logo {
+  max-height: 50px;
+}
+.logo-social-nw {
+  padding-right: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 40px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+.main-item {
+  min-height: 100px;
+}
+.main-text {
+  font-weight: bold;
+  font-size: x-large;
+}
+.logo-big {
+  height: 200px;
+}
+.dot {
+  padding-left:5px;
+  padding-right:5px;
+}
+.orange {
+  color: #ffab0f;
+}
+.pink {
+  color: #ff5b6e;
+}
+.blue {
+  color: #00b6d6;
+}
+.green {
+  color: #53e05e;
+}
+.footer {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: smaller;
+  color: #c7c7c7;
+}
