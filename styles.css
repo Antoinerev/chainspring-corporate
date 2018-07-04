@@ -2,6 +2,8 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("images/flowers_wallpaper.jpg");
   display: flex;
   flex-direction: column;
+  margin: 0;
+  width: 100vw;
 }
 .home-container {
   align-self: center;
@@ -9,10 +11,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   max-width: 1200px;
-  height: 100vh;
-  min-height: 800px;
+  /*height: 100vh;*/
+  /*min-height: 800px;*/
+  min-height: 100vh;
 }
 .navbar {
   display: flex;
@@ -32,13 +35,18 @@ body {
 .right-navbar {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   /*align-self: flex-end;*/
+  width: 70%;
+  max-width: 400px;
 }
 .navbar-item {
-  padding: 0 20px;
+  padding: 0 10px;
+  text-align: center;
 }
 .logo {
-  max-height: 50px;
+  max-width: 120px;
+  width: 20vw;
 }
 .logo-social-nw {
   padding-right: 10px;
@@ -54,9 +62,9 @@ a {
 .main-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   align-items: center;
-  height: 100%;
+  min-height: 100%;
   margin: 20px 0;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
@@ -69,6 +77,8 @@ a {
 .main-text {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
+  padding: 20px 6px;
 }
 .logo-big {
   height: 160px;
@@ -84,11 +94,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 200px;
+  /*min-height: 200px;*/
   color: #FFFFFF;
 }
 .values {
   font-size: larger;
+  text-align: center;
 }
 .dot {
   padding-left:5px;
