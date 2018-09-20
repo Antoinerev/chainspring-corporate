@@ -8,6 +8,20 @@
   .logo {
     display: none;
   }
+  .main-item {
+    flex-flow: column wrap;
+  }
+}
+@media (min-width: 601px) {
+  .main-item {
+    flex-flow: row wrap;
+  }
+}
+.main-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
 }
 body {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("images/flowers_wallpaper.jpg");
@@ -79,13 +93,6 @@ a {
   margin: 20px 0;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
-}
-.main-item {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 100px;
 }
 .box-3 {
   width: 34vw;
