@@ -82,8 +82,19 @@ a {
 }
 .main-item {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
   min-height: 100px;
+}
+.box-3 {
+  width: 34vw;
+  min-width: 6em;
+}
+.center-box {
+  margin: 0.6em 1em;
+  width: 10vw;
+  min-width: 3em;
 }
 .main-text {
   font-weight: bold;
